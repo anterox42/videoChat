@@ -8,8 +8,8 @@ body {
 }
 
 video {
-  width: 50vw;
-  height: 30vw;
+  /* width: 50vw;
+  height: 30vw; */
   margin: 0rem;
   background: #2c3e50;
 }
@@ -18,4 +18,10 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

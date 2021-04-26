@@ -117,7 +117,7 @@ webcamButton.onclick = async () => {
       faceapi.draw.drawDetections(canvas, resizedDetections);
       faceapi.draw.drawFaceLandmarks(canvas, resizedDetections);
       faceapi.draw.drawFaceExpressions(canvas, resizedDetections);
-    }, 1000);
+    }, 200);
 
     console.log('listener added to remote video');
   });
